@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h2>The Great </h2>
+        <h1>RGB(211, 206, 13)</h1>
+        <h2>Guessing Game</h2>
+    </div>
+    <div class="custom">
+        <span class="newColor">New</span>
+        <span class="status">Correct</span>
+        <span class="easy">Easy</span>
+        <span class="hard selected">Hard</span>
+        
+    </div>
+    <section class="main">
+        <div class="squares">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        
+    </section>
+
+    <section class="rules">
+        <div class="ins">
+            <h3>Instructions</h3>
+            <ul>
+                <li>Choose the correct RGB color by clicking the squares</li>
+                <li>If correct, all will change color</li>
+                <li>If wrong, selected square will fade</li>
+                <li>You can alter the difficulty by clicking easy or hard</li>
+            </ul>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+
+</html>
